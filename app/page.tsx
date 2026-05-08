@@ -132,10 +132,21 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full border-b border-zinc-200 dark:border-zinc-800 backdrop-blur-sm sticky top-0 z-50 bg-white/70 dark:bg-black/60">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
-          <h1 className="text-2xl font-bold tracking-tight">
+          {/* App logo */}
+          <div className="flex gap-2">
+            <Image
+              width={500}
+              height={500}
+              alt="logo"
+              src={"/logo.png"}
+              className="w-8"
+            />
+            <h1 className="text-2xl font-bold tracking-tight">
             Uttam<span className="text-blue-500">.</span>
           </h1>
+          </div>
+
+          
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
             <a href="#home" className="hover:text-blue-500 transition">
