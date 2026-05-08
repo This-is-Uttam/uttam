@@ -127,10 +127,10 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-black text-zinc-900 dark:text-white font-sans overflow-x-hidden">
+    <div className="relative min-h-screen bg-zinc-50 dark:bg-black text-zinc-900 dark:text-white font-sans">
 
       {/* Navbar */}
-      <nav className="w-full border-b border-zinc-200 dark:border-zinc-800 backdrop-blur-sm sticky top-0 z-50 bg-white/70 dark:bg-black/60">
+      <nav className="sticky w-full border-b border-zinc-200 dark:border-zinc-800 backdrop-blur-sm  top-0 z-50 bg-white/70 dark:bg-black/60">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           {/* App logo */}
           <div className="flex gap-2">
@@ -194,13 +194,13 @@ export default function Home() {
             </div>
 
             <div className="flex gap-4 mt-4">
-              <button className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-xl text-white font-medium shadow-lg shadow-blue-500/20">
+              <a href="#projects" className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-xl text-white font-medium shadow-lg shadow-blue-500/20">
                 View Projects
-              </button>
+              </a>
 
-              <button className="border border-zinc-300 dark:border-zinc-700 hover:border-blue-500 hover:text-blue-500 transition px-6 py-3 rounded-xl">
+              <a href="#contact" className="border border-zinc-300 dark:border-zinc-700 hover:border-blue-500 hover:text-blue-500 transition px-6 py-3 rounded-xl">
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
 
