@@ -304,15 +304,15 @@ export default function Home() {
         }}>
           <div className="mb-5">
             <label htmlFor="name" className="block mb-2.5 text-sm font-medium text-heading">Your Name</label>
-            <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} className="bg-neutral-secondary-medium border rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="John Doe" required />
+            <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} className="bg-neutral-secondary-medium border border-gray-600 rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="John Doe" required />
           </div>
           <div className="mb-5">
             <label htmlFor="email" className="block mb-2.5 text-sm font-medium text-heading">Your Email</label>
-            <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-neutral-secondary-medium border rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="name@gmail.com" required />
+            <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-neutral-secondary-medium border border-gray-600 rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="name@gmail.com" required />
           </div>
           <div>
             <label htmlFor="message" className="block mb-2.5 text-sm font-medium text-heading">Your Message</label>
-            <textarea id="message" rows={4} name="message" value={message} onChange={(e) => setMessage(e.target.value)} className="bg-neutral-secondary-medium border rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="Write your thoughts here..." required ></textarea>
+            <textarea id="message" rows={4} name="message" value={message} onChange={(e) => setMessage(e.target.value)} className="bg-neutral-secondary-medium border border-gray-600 rounded-xl text-heading text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="Write your thoughts here..." required ></textarea>
 
           </div>
 
